@@ -1,0 +1,70 @@
+body {
+	background: black;
+}
+
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	font-family: "Barlow Condensed", sans-serif;
+	font-family: "Comic Neue", cursive;
+	font-family: "Quicksand", sans-serif;
+}
+
+.postcard-header {
+	display: flex;
+	height: 50px;
+}
+img {
+	width: 50px;
+	height: 50px;
+}
+h1 {
+	font-size: 25px;
+	margin: 0px;
+	font-weight: normal;
+	height: 50px;
+    vertical-align: text-bottom;
+}
+.postcard-h1 {
+	width: 75em;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+input {
+	border: none;
+	border-bottom: grey solid 1px;
+	font-family: "Comic Neue";
+}
+
+p {
+	font-size: 15px;
+	font-style: italic;
+}
+.body-right {
+	padding: 12px 2px 0 4px;
+}
+
+.body-left {
+	padding: 0px 2px 0 4px;
+}
+
+button {
+	background: grey;
+	font-weight: bolder;
+	padding: 3px;
+	font-family: "Comic Neue";
+	margin-top: 4px;
+}
+
+.postcard-footer {
+	text-align: center;
+}
